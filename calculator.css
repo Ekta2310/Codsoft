@@ -1,0 +1,128 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(190, 246, 248);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color:rgb(33, 31, 31) ;
+    padding:20px;
+    border-radius: 10px;
+}
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width:45px;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    margin: 10px;
+} */
+/* .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;   
+}
+.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    padding: 30px;
+}
+form input.equal{
+    width: 145px;
+}
+ form input.operator {
+    color: aqua;
+
+} */
+
+.calculator {
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid #05304a;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1) , 5px 5px 15px rgba(0,0,0,0.2);
+    background-color: #3a4452;
+box-sizing: border-box;  
+}
+  
+  #display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+    border: 1px solid#3a4452;
+    border-radius: 5px;
+    background-color: #3a4452;
+    margin-bottom: 4%;
+   
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    background-color: #3a4452;
+    
+  }
+  
+  .operator {
+    background-color: #3a4452;
+    color: aqua;
+    width: 70px;
+    font-size: 22px;
+  }
+  
+  .clear {
+    background-color: #3a4452;
+   
+    color: aqua;
+    width: 72px;
+    font-size: 22px;
+  }
+
+  .number{
+    width: 70px;
+  }
+
+  
+  .equal {
+    background-color: #3a4452;
+    color:aqua;
+    margin-left: 50%;
+    
+   
+    
+  }
+
+ 
